@@ -37,6 +37,16 @@ Create nodes
 ```
 # ./cluster create-nodes
 ```
+
+Install
+
+```
+$ mkdir -p build/metal; cd build/metal;
+$ cp terraform.tfvars; ## add source
+$ terraform init ../../platforms/metal
+$ terraform apply ../../platforms/metal
+```
+
 ## IP addresses
 
 ```
